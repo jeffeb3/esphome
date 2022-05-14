@@ -14,9 +14,9 @@
 namespace esphome {
 namespace radon_eye_rd200 {
 
-static const char *const SERVICE_UUID = "00001523-1212-efde-1523-785feabcd123";
-static const char *const WRITE_CHARACTERISTIC_UUID = "00001524-1212-efde-1523-785feabcd123";
-static const char *const READ_CHARACTERISTIC_UUID = "00001525-1212-efde-1523-785feabcd123";
+static const char *const SERVICE_UUID = "0x1523";
+static const char *const WRITE_CHARACTERISTIC_UUID = "0x1524";
+static const char *const READ_CHARACTERISTIC_UUID = "0x1525";
 
 class RadonEyeRD200 : public PollingComponent, public ble_client::BLEClientNode {
  public:
